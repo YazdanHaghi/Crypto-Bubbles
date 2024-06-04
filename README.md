@@ -52,5 +52,5 @@ The code consists of HTML, and JavaScript sections:
 * Edit the `data.json` file to include your desired cryptocurrency data structure. Ensuring consistent formatting (e.g., comma separators for numbers) is crucial for proper data processing.
 * Explore D3.js documentation (https://d3js.org/) to customize the visualization further, such as adding animations or interactions.
 
-!["Alt text for your image"](["(https://github.com/YazdanHaghi/Crypto-Bubbles/blob/main/Screenshot%202024-06-04%20193450.png)"])
+!["Alt text for your image"](https://github.com/YazdanHaghi/Crypto-Bubbles/blob/main/Screenshot%202024-06-04%20193450.png)
 
