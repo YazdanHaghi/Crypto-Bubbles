@@ -2,7 +2,7 @@
 
 **Crypto Bubbles**
 
-This code visualizes cryptocurrency data using D3.js, focusing on market capitalization, volume, price, and circulating supply. The data is displayed in a dynamic circle pack layout, with circles representing cryptocurrencies and their sizes proportional to the chosen variable.
+This code visualizes cryptocurrency data using D3.js, focusing on 24h change. The data is displayed in a dynamic circle pack layout, with circles representing cryptocurrencies and their sizes proportional to the chosen variable.
 
 **Features:**
 
@@ -23,11 +23,11 @@ This code visualizes cryptocurrency data using D3.js, focusing on market capital
 
 **How to Use:**
 
-The visualization will load automatically upon opening the HTML file. Click on the radio buttons (currently commented out) to select the desired category (market cap, volume, price, or circulating supply) and update the displayed data.
+The visualization will load automatically upon opening the HTML file. Click on the radio buttons (currently commented out) to select the desired category (market cap, volume or price) and update the displayed data.(I add just the 24h changes for now).
 
 **Code Structure:**
 
-The code consists of HTML, CSS (not provided), and JavaScript sections:
+The code consists of HTML, and JavaScript sections:
 
 * **HTML:** Defines the basic structure of the webpage, including the title and a container for the visualization.
 * **JavaScript:**
@@ -44,11 +44,10 @@ The code consists of HTML, CSS (not provided), and JavaScript sections:
         * Creates SVG elements and sets their dimensions.
         * Uses the pack layout to position circles within the SVG.
         * Appends circles, labels, and text elements to represent the data points.
-    * Update function:
+    * Update function:(is commented in the project but the function is working just uncomment the html code to use it)
         * `updateData`: Allows users to change the variable used to size the circles and updates the visualization accordingly.
 
 **Further Customization:**
 
-* Modify the CSS file (`style.css`, not provided here) to style the visualization elements (e.g., colors, fonts, labels).
 * Edit the `data.json` file to include your desired cryptocurrency data structure. Ensuring consistent formatting (e.g., comma separators for numbers) is crucial for proper data processing.
 * Explore D3.js documentation (https://d3js.org/) to customize the visualization further, such as adding animations or interactions.
