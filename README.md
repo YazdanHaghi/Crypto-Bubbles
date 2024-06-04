@@ -51,3 +51,6 @@ The code consists of HTML, and JavaScript sections:
 
 * Edit the `data.json` file to include your desired cryptocurrency data structure. Ensuring consistent formatting (e.g., comma separators for numbers) is crucial for proper data processing.
 * Explore D3.js documentation (https://d3js.org/) to customize the visualization further, such as adding animations or interactions.
+
+* !["Sample page of the Crypto Bubbles project"](Screenshot 2024-06-04 193450.png)  This code visualizes cryptocurrency data using D3.js...
+
